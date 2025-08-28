@@ -1,0 +1,15 @@
+
+├─ data/                  # scripts for downloading sample Kepler/TESS data
+├─ notebooks/             # Jupyter notebooks for EDA & model experiments
+├─ src/
+│  ├─ data_processing.py  # cleaning & preprocessing
+│  ├─ models.py           # CNN/LSTM models
+│  ├─ train.py            # training loop
+│  ├─ evaluate.py         # metrics & plots
+│  └─ app/
+│     ├─ main.py          # Flask/FastAPI app
+│     └─ static/          # frontend (HTML/React)
+├─ requirements.txt       # dependencies
+├─ README.md              # project documentation
+└─ .github/
+   └─ workflows/ci.yml    # CI/CD pipeline
